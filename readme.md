@@ -8,8 +8,8 @@
 
 # Parts
 
-[ErgoDash PCB × 2](https://github.com/omkbd/ErgoDash/PCB)  
-[ErgoDash Case × 2](https://github.com/omkbd/ErgoDash/Case)  
+[ErgoDash PCB × 2](https://github.com/omkbd/ErgoDash/tree/master/PCB)  
+[ErgoDash Case × 2](https://github.com/omkbd/ErgoDash/tree/master/Case)  
 Switch (MX-compatible and Alps switches are supported) × 70  
 Keycap × 70  
 1N4148 diode × 70  
