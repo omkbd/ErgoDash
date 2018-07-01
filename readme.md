@@ -20,8 +20,8 @@ TRRS jack MJ-4PP-9 × 2
 MJTP1117 switch × 2  
 TRRS cable × 1  
 Micro USB cable × 1  
-M2 screw × 24
-M2 spacer × 12
+M2 screw × 24  
+M2 spacer × 12  
 
 ---Option---  
 LED WS2812B × 24  
@@ -30,7 +30,7 @@ LED 3mm × 70
 1kΩ resistor × 2  
 NchMOSFET IRLML6344TRPbF × 2  
 
-#Firmware
+# Firmware
 
 ![QMK_logo](https://qmk.fm/qmk_icon_48.png)
 [QMK Firmwre](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash)  
