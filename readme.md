@@ -32,4 +32,5 @@ NchMOSFET IRLML6344TRPbF × 2
 
 #Firmware
 
-![QMK Firmwre](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash)  
+![QMK_logo](https://qmk.fm/qmk_icon_48.png)
+[QMK Firmwre](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash)  
