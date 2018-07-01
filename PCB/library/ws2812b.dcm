@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WS2812B
+D RGB LED with integrated controller
+K LED, RGB, intelligent
+$ENDCMP
+#
+#End Doc Library
