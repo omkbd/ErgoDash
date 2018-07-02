@@ -26,21 +26,22 @@
 [ErgoDash Case](https://github.com/omkbd/ErgoDash/tree/master/Case)
  × 2  
 Cherry MX 互換 スイッチ × 66～70  
-Keycap × 66～70(基本的に1uのみ、配列によって2uに変更)  
-1N4148 ダイオード × 66～70(表面実装は未検証)  
+Keycap × 66～70 (基本的に1uのみで構成可、配列によって2uに変更)  
+1N4148 ダイオード × 66～70 (表面実装は未検証)  
 Arduino Pro Micro × 2  
 TRRS jack MJ-4PP-9 × 2  
 MJTP1117 switch × 2  
-TRRS cable × 1(RGB Underglowを使用する場合4極が必要)  
+TRRS cable × 1 (RGB Underglowを使用する場合4極が必要)  
 Micro USB cable × 1  
 M2 ねじ × 24(長さはケースにより異なります。)  
 M2 スペーサー × 12(長さはケースにより異なります。最短で6mmです。)  
 
 ------Option------  
+スプリングピンヘッダ12P × 4 ([Helix](https://github.com/MakotoKurauchi/helix)で使用されているものです。)  
 ---Backlight---  
 LED 3mm × 66～70  
-470Ω resistor × 66～70(表面実装は未検証)  
-1kΩ resistor × 2(表面実装は未検証)  
+470Ω resistor × 66～70 (表面実装は未検証)  
+1kΩ resistor × 2 (表面実装は未検証)  
 NchMOSFET IRLML6344TRPbF × 2  
 ---RGB Underglow---  
 LED WS2812B × 24  
