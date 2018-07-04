@@ -35,6 +35,7 @@ TRRS cable × 1 (RGB Underglowを使用する場合4極が必要)
 Micro USB cable × 1  
 M2 ねじ × 24(長さはケースにより異なります。)  
 M2 スペーサー × 12(長さはケースにより異なります。最短で6mmです。)  
+ゴム足 × 8
 
 ------Option------  
 スプリングピンヘッダ12P × 4 ([Helix](https://github.com/MakotoKurauchi/helix)で使用されているものです。)  
@@ -45,6 +46,8 @@ LED 3mm × 66～70
 NchMOSFET IRLML6344TRPbF × 2  
 ---RGB Underglow---  
 LED WS2812B × 24  
+又は  
+LEDテープ × 2
 
 PCBとケース以外は基本的に国内サイトで入手可能です。  
 GB等は未定です。PCBとケースだけでもやるかもしれません。
