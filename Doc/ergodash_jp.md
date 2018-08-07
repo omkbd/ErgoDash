@@ -33,9 +33,10 @@ TRRS jack MJ-4PP-9 × 2
 MJTP1117 switch × 2  
 TRRS cable × 1 (RGB Underglowを使用する場合4極が必要)  
 Micro USB cable × 1  
-M2 ねじ × 24(長さはケースにより異なります。)  
-M2 スペーサー × 12(長さはケースにより異なります。最短で6mmです。)  
-ゴム足 × 8
+M2 ねじ × 18  
+M2×8mm ねじ × 6  
+M2×6mm スペーサー × 12  
+ゴム足 × 8  
 
 ------Option------  
 スプリングピンヘッダ12P × 4 ([Helix](https://github.com/MakotoKurauchi/helix)で使用されているものです。)  
@@ -50,7 +51,6 @@ LED WS2812B × 24
 LEDテープ × 2
 
 PCBとケース以外は基本的に国内サイトで入手可能です。  
-GB等は未定です。PCBとケースだけでもやるかもしれません。
 
 
 ## ファームウェア
