@@ -1,6 +1,6 @@
 # ErgoDash PCB
 
-![ErgoDash PCB](https://github.com/omkbd/picture/blob/master/ergodash_pcb3.png)  
+![ErgoDash PCB](https://github.com/omkbd/picture/blob/master/ergodash_pcb1_rev1_1.png)  
 
 ### ① pro micro
 2か所のうちのどちらか一方に取り付けます。  
@@ -61,3 +61,5 @@ Master、Slaveによってジャンパする箇所が異なります。
 ### ⑭基板カット位置
 レイアウトによりカットします。
 ### ⑮スペーサ取付穴
+
+### ⑯圧電スピーカー
