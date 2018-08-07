@@ -28,7 +28,7 @@
 Cherry MX 互換 スイッチ × 66～70  
 Keycap × 66～70 (基本的に1uのみで構成可、配列によって2uに変更)  
 1N4148 ダイオード × 66～70 (表面実装は未検証)  
-Arduino Pro Micro × 2  
+Pro Micro × 2  
 TRRS jack MJ-4PP-9 × 2  
 MJTP1117 switch × 2  
 TRRS cable × 1 (RGB Underglowを使用する場合4極が必要)  
@@ -55,7 +55,6 @@ GB等は未定です。PCBとケースだけでもやるかもしれません。
 
 ## ファームウェア
 
-![QMK_logo](https://qmk.fm/qmk_icon_48.png)  
 QMK Firmwareで動作します。
 [QMK - ErgoDash directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash)
 .  
