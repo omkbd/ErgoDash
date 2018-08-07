@@ -1,4 +1,4 @@
-# ErgoDashの買い物リスト
+# ErgoDashの買い物リスト[国内]
 
 Cherry MX 互換 スイッチ × 66～70  
 https://yushakobo.jp/product-category/switches/  
@@ -40,7 +40,7 @@ M2×6mm スペーサー × 12
 http://www.hirosugi-net.co.jp/shop/c/c10141010/
 
 ゴム足 × 8  
-適当に
+
 
 
 ------Option------  
@@ -49,6 +49,8 @@ https://yushakobo.jp/shop/a01mc-00/
 
 ---Backlight---  
 LED 3mm × 66～70  
+
+
 470Ω resistor × 66～70 (表面実装は未検証)  
 http://akizukidenshi.com/catalog/g/gR-16471/  
 1kΩ resistor × 2 (表面実装は未検証)  
