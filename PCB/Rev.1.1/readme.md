@@ -1,5 +1,7 @@
 # ErgoDash PCB
 
+このPCBデータはQMK Fimware上のRev.2に対応しています。  
+
 ![ErgoDash PCB](https://github.com/omkbd/picture/blob/master/ergodash_pcb1_rev1_1.png)  
 
 ### ① pro micro
