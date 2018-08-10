@@ -2,15 +2,15 @@
 **読まなくてもいいけどPromicro取付け時だけは注意しましょう。**
 ## 0 準備
 組みたいレイアウトによってPCBを切断します。  
-<img width="400" alt="PCBA" src="https://github.com/omkbd/picture/blob/master/PCB_A.jpg">  
-<img width="400" alt="PCBB" src="https://github.com/omkbd/picture/blob/master/PCB_B.jpg">  
+<img width="350" alt="PCBA" src="https://github.com/omkbd/picture/blob/master/PCB_A.jpg">
+<img width="350" alt="PCBB" src="https://github.com/omkbd/picture/blob/master/PCB_B.jpg">  
 手で力をかければ割れます。  
 
 ## 1 ダイオードの取付け
 ダイオードの黒いほうが四角いフットプリントに合うように配置します。  
 <img width="400" alt="diode" src="https://github.com/omkbd/picture/blob/master/Build_Diode.jpg">  
-ダイオードと抵抗の位置を間違えないように注意してください。
-<img width="400" alt="diode" src="https://github.com/omkbd/picture/blob/master/diode_complete.jpg">  
+ダイオードと抵抗の位置を間違えないように注意してください。  
+<img width="600" alt="diode" src="https://github.com/omkbd/picture/blob/master/diode_complete.jpg">  
 
 ## 2 Backlight LED用パーツの取付け[Option]
 MOSFETを取り付けます。
