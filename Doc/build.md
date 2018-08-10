@@ -2,7 +2,7 @@
 **読まなくてもいいけどPromicro取付け時だけは注意しましょう。**
 ## 0 準備
 組みたいレイアウトによってPCBを切断します。  
-<img width="700" alt="PCBcut" src="https://github.com/omkbd/picture/blob/master/PCB_cut.jpg">
+<img width="700" alt="PCBcut" src="https://github.com/omkbd/picture/blob/master/PCB_cut.jpg">  
 手で力をかければ割れます。  
 
 ## 1 ダイオードの取付け
