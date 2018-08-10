@@ -10,12 +10,15 @@
 ダイオードの黒いほうが四角いフットプリントに合うように配置します。  
 <img width="400" alt="diode" src="https://github.com/omkbd/picture/blob/master/Build_Diode.jpg">  
 ダイオードと抵抗の位置を間違えないように注意してください。
+<img width="400" alt="diode" src="https://github.com/omkbd/picture/blob/master/diode_complete.jpg">  
 
 ## 2 Backlight LED用パーツの取付け[Option]
 MOSFETを取り付けます。
+四角で囲ってある箇所に1kΩの抵抗を取り付けます。  
+<img width="400" alt="1k" src="https://github.com/omkbd/picture/blob/master/1k_FET.jpg">  
 
-抵抗を取り付けます。  
-四角で囲ってある抵抗のみ1kΩの抵抗を取り付けます。  
+470Ω抵抗を取り付けます。  
+
 
 ## 3 Undergrow LEDの取付け[Option]
 左右どちらをマスターにするか（USBを指すほう）を決めて、はんだでジャンパします。
@@ -47,3 +50,7 @@ LEDチップを取り付けます。
 
 
 ## 11 Firmwareの書き込み
+
+
+
+<img width="400" alt="finish" src="https://github.com/omkbd/picture/blob/master/finish.jpg">  
