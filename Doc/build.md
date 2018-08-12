@@ -1,5 +1,5 @@
 # ErgoDash Build Guide
-**読まなくてもいいけどPromicro取付け時だけは注意しましょう。**
+**読まなくてもいいけどPro Micro取付け時だけは注意しましょう。**
 ## 0 準備
 組みたいレイアウトによってPCBを切断します。  
 <img width="700" alt="PCBcut" src="https://github.com/omkbd/picture/blob/master/PCB_cut.jpg">  
@@ -39,7 +39,7 @@ LEDチップを取り付けます。
 
 ## 6 promicro用ピンヘッダの取付け
 四角い枠がついているほうにピンヘッダを取り付けます。  
-**この時点でPromicroを取り付けてはいけません。**  
+**この時点でPro Microを取り付けてはいけません。**  
 スプリングピンヘッダを使う場合はこの工程を省けます。  
 
 ## 7 キースイッチの取付け
@@ -49,13 +49,18 @@ LEDチップを取り付けます。
 スイッチの上からLEDを取り付けます。  
 
 ## 9 promicroの取付け
-取り付けるまにはんだ漏れがないか確認します。
+取り付ける前にはんだ漏れがないか確認します。  
+Pro Microと基板のTX0が合うか確認して取り付けます。  
+両手とも裏側に取り付けられるようになります。  
 
 ## 10 ケースの組み立て
 
 
 ## 11 Firmwareの書き込み
-ggりましょう。
+以下を参考にやってください。  
+https://docs.qmk.fm/#/getting_started_build_tools  
+ErgoDahのFirmwareは以下にあります。  
+https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
 
-
+完成!!!!!  
 <img width="700" alt="finish" src="https://github.com/omkbd/picture/blob/master/finish.jpg">  
