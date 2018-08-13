@@ -1,5 +1,5 @@
 # ErgoDash Build Guide
-**読まなくてもいいけどPro Micro取付け時だけは注意しましょう。**
+**読まなくてもいいけどPro Micro取付け時だけは注意!!!!!!**
 ## 0 準備
 組みたいレイアウトによってPCBを切断します。  
 <img width="700" alt="PCBcut" src="https://github.com/omkbd/picture/blob/master/PCB_cut.jpg">  
@@ -26,7 +26,7 @@ MOSFETを取り付けます。
 シルクに沿って取り付けます。  
 
 ## 4 リセットスイッチの取付け  
-promicroをつけるのと逆側に取り付けます。  
+Pro Microをつけるのと逆側に取り付けます。  
 
 ## 5 Undergrow LEDの取付け[Option]
 左右どちらをマスターにするか（USBを指すほう）を決めて、はんだでジャンパします。  
@@ -34,11 +34,12 @@ promicroをつけるのと逆側に取り付けます。
 <img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump.jpg">  
 LEDチップを取り付けます。  
 マスター側は以下のように切れ込みがシルクに合うように取り付けます。スレーブ側（逆側）は逆向きに取り付けます。  
+テープ等で固定してはんだ付けをするとやりやすいです。  
 <img width="400" alt="RGB_Left" src="https://github.com/omkbd/picture/blob/master/RGB_Left.jpg">  
 <img width="700" alt="RGB_Left_Finish" src="https://github.com/omkbd/picture/blob/master/RGB_Left_Finish.jpg">  
 
-## 6 promicro用ピンヘッダの取付け
-四角い枠がついているほうにピンヘッダを取り付けます。  
+## 6 Pro Micro用ピンヘッダの取付け
+白い四角い枠がついているほうにピンヘッダを取り付けます。  
 **この時点でPro Microを取り付けてはいけません。**  
 スプリングピンヘッダを使う場合ははんだ付け不要です。  
 <img width="700" alt="pin" src="https://github.com/omkbd/picture/blob/master/pin.jpg">  
@@ -51,18 +52,20 @@ LEDチップを取り付けます。
 
 ## 8 Backlight LEDの取付け[Option]
 スイッチの上からLEDを取り付けます。  
+丸い穴がアノード（＋）で四角い穴がカソード（-）です。  
 
-## 9 promicroの取付け
+## 9 Pro Microの取付け
 取り付ける前にはんだ忘れがないか確認します。  
 Pro Microと基板のTX0が合うか確認して取り付けます。  
 両手とも裏側に取り付けられるようになります。  
 
 ## 10 ケースの組み立て
-5mmのねじと6mmのスペーサーを取り付けます。
+5mmのねじと6mmのスペーサーを取り付けます。  
 <img width="700" alt="spacer" src="https://github.com/omkbd/picture/blob/master/spacer.jpg">  
-5mmのねじと8mmのねじを取り付けます。
+5mmのねじと8mmのねじを取り付けます。  
 <img width="700" alt="case" src="https://github.com/omkbd/picture/blob/master/case.jpg">  
-ゴム足を取り付けます。
+ゴム足を取り付けます。  
+<img width="700" alt="gom" src="https://github.com/omkbd/picture/blob/master/gom.jpg">  
 
 ## 11 Firmwareの書き込み
 以下を参考にやってください。  
