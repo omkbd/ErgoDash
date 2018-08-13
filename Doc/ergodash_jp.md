@@ -10,7 +10,6 @@
 ・Backlight LED対応  
 ・RGB Underglow対応  
 ・QMK Firmware 対応  
-・格子配列用のキーキャップでだいたいいける?  
 
 ## キー配列
 
@@ -27,7 +26,7 @@
  × 2  
 Cherry MX 互換 スイッチ × 66～70  
 Keycap × 66～70 (基本的に1uのみで構成可、配列によって2uに変更)  
-1N4148 ダイオード × 66～70 (表面実装は未検証)  
+1N4148 ダイオード × 66～70  
 Pro Micro × 2  
 TRRS jack MJ-4PP-9 × 2  
 MJTP1117 switch × 2  
@@ -42,8 +41,8 @@ M2×6mm スペーサー × 12
 スプリングピンヘッダ12P × 4 ([Helix](https://github.com/MakotoKurauchi/helix)で使用されているものです。)  
 ---Backlight---  
 LED 3mm × 66～70  
-470Ω resistor × 66～70 (表面実装は未検証)  
-1kΩ resistor × 2 (表面実装は未検証)  
+470Ω resistor × 66～70  
+1kΩ resistor × 2  
 NchMOSFET IRLML6344TRPbF × 2  
 ---RGB Underglow---  
 LED WS2812B × 24  
