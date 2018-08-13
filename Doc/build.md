@@ -59,7 +59,7 @@ Pro Microと基板のTX0が合うか確認して取り付けます。
 
 ## 10 ケースの組み立て
 5mmのねじと6mmのスペーサーを取り付けます。
-<img width="700" alt="pin" src="https://github.com/omkbd/picture/blob/master/pin.jpg">  
+<img width="700" alt="spacer" src="https://github.com/omkbd/picture/blob/master/spacer.jpg">  
 5mmのねじと8mmのねじを取り付けます。
 <img width="700" alt="case" src="https://github.com/omkbd/picture/blob/master/case.jpg">  
 ゴム足を取り付けます。
