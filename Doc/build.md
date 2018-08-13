@@ -5,6 +5,8 @@
 <img width="700" alt="PCBcut" src="https://github.com/omkbd/picture/blob/master/PCB_cut.jpg">  
 手で力をかければ割れます。  
 
+**以降の番号の1～6と9は基本的に基板の裏側に取り付けます。**  
+
 ## 1 ダイオードの取付け
 ダイオードの黒いほうが四角いフットプリントに合うように配置します。  
 <img width="400" alt="diode" src="https://github.com/omkbd/picture/blob/master/Build_Diode.jpg">  
@@ -20,12 +22,10 @@ MOSFETを取り付けます。
 <img width="700" alt="470" src="https://github.com/omkbd/picture/blob/master/Resistor.jpg">  
 ※一部表面実装の抵抗をつけています。  
 
-## 3 TRRSジャックの取付け
-裏側に取り付けます。  
+## 3 TRRSジャックの取付け  
 シルクに沿って取り付けます。  
 
-## 4 リセットスイッチの取付け
-裏側に取り付けます。  
+## 4 リセットスイッチの取付け  
 promicroをつけるのと逆側に取り付けます。  
 
 ## 5 Undergrow LEDの取付け[Option]
