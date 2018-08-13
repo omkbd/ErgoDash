@@ -32,9 +32,9 @@ TRRS jack MJ-4PP-9 × 2
 MJTP1117 switch × 2  
 TRRS cable × 1 (RGB Underglowを使用する場合4極が必要)  
 Micro USB cable × 1  
-M2×5mm ねじ × 18  
+M2×5mm ねじ × 22  
 M2×8mm ねじ × 6  
-M2×6mm スペーサー × 12  
+M2×6mm スペーサー × 14  
 ゴム足 × 8  
 
 ------Option------  

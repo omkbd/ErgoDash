@@ -33,13 +33,13 @@ https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4Z87
 Micro USB cable × 1  
 
 
-M2×5mm ねじ × 18  
+M2×5mm ねじ × 22  
 
 
 M2×8mm ねじ × 6  
 
 
-M2×6mm スペーサー × 12  
+M2×6mm スペーサー × 14  
 http://www.hirosugi-net.co.jp/shop/c/c10141010/
 
 ゴム足 × 8  

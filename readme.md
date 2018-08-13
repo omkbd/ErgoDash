@@ -20,8 +20,8 @@ TRRS jack MJ-4PP-9 × 2
 MJTP1117 switch × 2  
 TRRS cable × 1  
 Micro USB cable × 1  
-M2 screw × 24  
-M2 spacer × 12  
+M2 screw × 28  
+M2 spacer × 14  
 
 ---Option---  
 LED WS2812B × 24  
