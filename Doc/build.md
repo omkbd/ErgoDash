@@ -40,21 +40,29 @@ LEDチップを取り付けます。
 ## 6 promicro用ピンヘッダの取付け
 四角い枠がついているほうにピンヘッダを取り付けます。  
 **この時点でPro Microを取り付けてはいけません。**  
-スプリングピンヘッダを使う場合はこの工程を省けます。  
+スプリングピンヘッダを使う場合ははんだ付け不要です。  
+<img width="700" alt="pin" src="https://github.com/omkbd/picture/blob/master/pin.jpg">  
 
 ## 7 キースイッチの取付け
+スイッチを取り付ける前に部品の取付けやはんだ付けができているか確認します。  
 アクリルプレートにキースイッチをはめて取り付けします。  
+<img width="700" alt="switch" src="https://github.com/omkbd/picture/blob/master/switch.jpg">  
+<img width="700" alt="switch_complete" src="https://github.com/omkbd/picture/blob/master/switch_complete.jpg">  
 
 ## 8 Backlight LEDの取付け[Option]
 スイッチの上からLEDを取り付けます。  
 
 ## 9 promicroの取付け
-取り付ける前にはんだ漏れがないか確認します。  
+取り付ける前にはんだ忘れがないか確認します。  
 Pro Microと基板のTX0が合うか確認して取り付けます。  
 両手とも裏側に取り付けられるようになります。  
 
 ## 10 ケースの組み立て
-
+5mmのねじと6mmのスペーサーを取り付けます。
+<img width="700" alt="pin" src="https://github.com/omkbd/picture/blob/master/pin.jpg">  
+5mmのねじと8mmのねじを取り付けます。
+<img width="700" alt="case" src="https://github.com/omkbd/picture/blob/master/case.jpg">  
+ゴム足を取り付けます。
 
 ## 11 Firmwareの書き込み
 以下を参考にやってください。  
@@ -62,5 +70,5 @@ https://docs.qmk.fm/#/getting_started_build_tools
 ErgoDahのFirmwareは以下にあります。  
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
 
-完成!!!!!  
+キーキャップをつけて完成!!!!!  
 <img width="700" alt="finish" src="https://github.com/omkbd/picture/blob/master/finish.jpg">  
