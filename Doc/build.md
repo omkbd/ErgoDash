@@ -1,11 +1,15 @@
 # ErgoDash Build Guide
 **読まなくてもいいけどPro Micro取付け時だけは注意!!!!!!**
+
+## 概要
+<img width="700" alt="assembly" src="https://github.com/omkbd/picture/blob/master/assembly.png">  
+
 ## 0 準備
 組みたいレイアウトによってPCBを切断します。  
 <img width="700" alt="PCBcut" src="https://github.com/omkbd/picture/blob/master/PCB_cut.jpg">  
 手で力をかければ割れます。  
 
-**以降の番号の1～6と9は基本的に基板の裏側に取り付けます。**  
+**以降の番号の3～6と9は基本的に基板の裏側に取り付けます。**  
 
 ## 1 ダイオードの取付け
 ダイオードの黒いほうが四角いフットプリントに合うように配置します。  
@@ -21,6 +25,7 @@ MOSFETを取り付けます。
 470Ω抵抗を取り付けます。  
 <img width="700" alt="470" src="https://github.com/omkbd/picture/blob/master/Resistor.jpg">  
 ※一部表面実装の抵抗をつけています。  
+※pro microの裏に取り付ける抵抗は表面側に取り付けるか表面実装を推奨。(pro microの種類によってはpro microと干渉します。)  
 
 ## 3 TRRSジャックの取付け  
 シルクに沿って取り付けます。  
