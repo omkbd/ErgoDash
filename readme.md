@@ -2,6 +2,8 @@
 
 ![ErgoDash](https://github.com/omkbd/picture/blob/master/IMG_20180630_1702141.jpg)
 
+[Japanese Read me](https://github.com/omkbd/ErgoDash/blob/master/Doc/ergodash_jp.md)
+
 # Layout
 
 ![layout](https://github.com/omkbd/picture/blob/master/ergodash-layout.png)
@@ -35,3 +37,10 @@ NchMOSFET IRLML6344TRPbF × 2
 The ErgoDash uses QMK for its firmware, and the code for it is here:
 [QMK - ErgoDash directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash)
 .  
+
+
+# Build Guide
+
+Show
+[here](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)
+.
