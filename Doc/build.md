@@ -25,7 +25,7 @@ MOSFETを取り付けます。
 470Ω抵抗を取り付けます。  
 <img width="700" alt="470" src="https://github.com/omkbd/picture/blob/master/Resistor.jpg">  
 ※一部表面実装の抵抗をつけています。  
-※pro microの裏に取り付ける抵抗は表面側に取り付けるか表面実装を推奨。(pro microの種類によってはpro microと干渉します。)  
+※Pro Microの裏に取り付ける抵抗は表面側に取り付けるか表面実装を推奨。(Pro Microの種類によってはPro Microと干渉します。)  
 
 ## 3 TRRSジャックの取付け  
 シルクに沿って取り付けます。  
