@@ -1,11 +1,11 @@
-# ErgoDashについて
+# ErgoDash miniについて
 
 ![ErgoDash](https://github.com/omkbd/picture/blob/master/Ergodash.jpg)
 
 ## 特徴
 ・左右分離型  
 ・Column staggered layout  
-・66～70キー（最下段をカスタマイズ可能、最大100パターン）  
+・62～56キー（最下段をカスタマイズ可能、最大100パターン）  
 ・Cherry MX 互換スイッチ対応  
 ・Backlight LED対応  
 ・RGB Underglow対応  
@@ -20,13 +20,13 @@
 
 ## パーツ
 
-[ErgoDash PCB](https://github.com/omkbd/ErgoDash/tree/master/PCB)
+[ErgoDash mini PCB](https://github.com/omkbd/ErgoDash/tree/master/mini/PCB)
  × 2  
-[ErgoDash Case](https://github.com/omkbd/ErgoDash/tree/master/Case)
+[ErgoDash mini Case](https://github.com/omkbd/ErgoDash/tree/master/mini/Case)
  × 2  
-Cherry MX 互換 スイッチ × 66～70  
-Keycap × 66～70 (基本的に1uのみで構成可、配列によって2uに変更)  
-1N4148 ダイオード × 66～70  
+Cherry MX 互換 スイッチ × 56  
+Keycap × 56 (基本的に1uのみで構成可、配列によって2uに変更)  
+1N4148 ダイオード × 56  
 Pro Micro × 2  
 TRRS jack MJ-4PP-9 × 2  
 MJTP1117 switch × 2  
@@ -40,23 +40,23 @@ M2×6mm スペーサー × 14
 ------Option------  
 スプリングピンヘッダ12P × 4 ([Helix](https://github.com/MakotoKurauchi/helix)で使用されているものです。)  
 ---Backlight---  
-LED 3mm × 66～70  
-470Ω resistor × 66～70  
+LED 3mm × 56  
+470Ω resistor × 56  
 1kΩ resistor × 2  
 NchMOSFET IRLML6344TRPbF × 2  
 ---RGB Underglow---  
-LED WS2812B × 24  
+LED WS2812B × 20  
 又は  
 LEDテープ × 2
 
 PCBとケース以外は基本的に国内サイトで入手可能です。  
 [ここ](https://dashkbd.booth.pm/items/1011978)
-で基本セットを販売しています。
+で基本セットを販売しています。(準備中)
 
 ## ファームウェア
 
 QMK Firmwareで動作します。
-[QMK - ErgoDash directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash)
+[QMK - ErgoDash mini directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash/mini)
 .  
 
 ## 組み立て方
