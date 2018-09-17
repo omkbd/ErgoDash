@@ -2,7 +2,7 @@
 
 ![ErgoDash](https://github.com/omkbd/picture/blob/master/Ergodashmini.jpg)
 
-[Japanese Read me](https://github.com/omkbd/ErgoDash/blob/master/miini/Doc/ergodashmini_jp.md)
+[Japanese Read me](https://github.com/omkbd/ErgoDash/blob/master/mini/Doc/ergodashmini_jp.md)
 
 # Layout
 

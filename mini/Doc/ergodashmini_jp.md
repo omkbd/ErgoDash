@@ -5,7 +5,7 @@
 ## 特徴
 ・左右分離型  
 ・Column staggered layout  
-・62～56キー（最下段をカスタマイズ可能、最大100パターン）  
+・52～56キー（最下段をカスタマイズ可能、最大100パターン）  
 ・Cherry MX 互換スイッチ対応  
 ・Backlight LED対応  
 ・RGB Underglow対応  
