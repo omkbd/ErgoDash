@@ -1,6 +1,6 @@
 # ErgoDash miniについて
 
-![ErgoDash](https://github.com/omkbd/picture/blob/master/Ergodash.jpg)
+![ErgoDash mini](https://github.com/omkbd/picture/blob/master/Ergodashmini.jpg)
 
 ## 特徴
 ・左右分離型  
@@ -13,7 +13,7 @@
 
 ## キー配列
 
-![layout](https://github.com/omkbd/picture/blob/master/ergodash-layout.png)  
+![layout](https://github.com/omkbd/picture/blob/master/ergodashmini-layout.png)  
 上の図が可能な配列です。（わかりにくくてすみません。）  
 片手で10パターン、両手で100パターンの配列が選択可能です。  
 ※両手を同じ配列にする必要はありません。
