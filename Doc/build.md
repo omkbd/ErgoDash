@@ -64,6 +64,7 @@ LEDチップを取り付けます。
 Pro Microと基板のTX0が合うか確認して取り付けます。  
 両手とも裏側に取り付けられるようになります。  
 スプリングヘッダを使う場合はPro Micro側ははんだ付けします。
+取り付けたときにPro Microの浮きがないか確認し、浮きがあればPro Micro下のスイッチの足を少しカットします。
 
 ## 10 ケースの組み立て
 5mmのねじと6mmのスペーサーを取り付けます。  
@@ -76,7 +77,7 @@ Pro Microと基板のTX0が合うか確認して取り付けます。
 ## 11 Firmwareの書き込み
 以下を参考にやってください。  
 https://docs.qmk.fm/#/getting_started_build_tools  
-ErgoDahのFirmwareは以下にあります。  
+ErgoDashのFirmwareは以下にあります。  
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
 
 キーキャップをつけて完成!!!!!  

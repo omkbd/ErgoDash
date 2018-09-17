@@ -1,6 +1,6 @@
 # ErgoDash
 
-![ErgoDash](https://github.com/omkbd/picture/blob/master/IMG_20180630_1702141.jpg)
+![ErgoDash](https://github.com/omkbd/picture/blob/master/Ergodash.jpg)
 
 [Japanese Read me](https://github.com/omkbd/ErgoDash/blob/master/Doc/ergodash_jp.md)
 
@@ -31,6 +31,10 @@ LED 3mm × 70
 470Ω resistor × 70  
 1kΩ resistor × 2  
 NchMOSFET IRLML6344TRPbF × 2  
+
+You can get it
+[here](https://dashkbd.booth.pm/items/1011978)
+.
 
 # Firmware
 

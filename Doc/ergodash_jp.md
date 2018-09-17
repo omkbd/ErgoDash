@@ -1,6 +1,6 @@
 # ErgoDashについて
 
-![ErgoDash](https://github.com/omkbd/picture/blob/master/IMG_20180630_1702141.jpg)
+![ErgoDash](https://github.com/omkbd/picture/blob/master/Ergodash.jpg)
 
 ## 特徴
 ・左右分離型  
@@ -50,10 +50,16 @@ LED WS2812B × 24
 LEDテープ × 2
 
 PCBとケース以外は基本的に国内サイトで入手可能です。  
-
+[ここ](https://dashkbd.booth.pm/items/1011978)
+で基本セットを販売しています。
 
 ## ファームウェア
 
 QMK Firmwareで動作します。
 [QMK - ErgoDash directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash)
 .  
+
+## 組み立て方
+
+[ここ](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)
+を見てください。
