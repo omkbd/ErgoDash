@@ -6,7 +6,7 @@
 組みたいレイアウトによってPCBを切断します。  
 手で力をかければ割れます。  
 
-**以降の番号の3～6と9は基本的に基板の裏側に取り付けます。**  
+**以降の番号の3～6と10は基本的に基板の裏側に取り付けます。**  
 
 ## 1 ダイオードの取付け
 ダイオードの黒いほうが四角いフットプリントに合うように配置します。  
@@ -39,7 +39,8 @@ LEDチップを取り付けます。
 ## 7 スタビライザーの取付け[option]
 2Uのキーキャップを使用する場合はスイッチを取り付ける前にスタビライザーを取り付けます。(必ずしもつける必要はありません。)  
 **スイッチを付けるとスタビライザーは取り付けられなくなります。**  
-<img width="700" alt="assembly" src="https://github.com/omkbd/picture/blob/master/Stabilizer.png">  
+<img width="400" alt="assembly" src="https://github.com/omkbd/picture/blob/master/Stabilizer.png">  
+スタビライザーの音が気になる場合はグリスを塗布します。
 
 ## 8 キースイッチの取付け
 スイッチを取り付ける前に部品の取付けやはんだ付けができているか確認します。  
@@ -58,15 +59,12 @@ Pro Microと基板のTX0が合うか確認して取り付けます。
 取り付けたときにPro Microの浮きがないか確認し、浮きがあればPro Micro下のスイッチの足を少しカットします。
 
 ## 11 ケースの組み立て
-5mmのねじと6mmのスペーサーを取り付けます。  
-5mmのねじと8mmのねじを取り付けます。  
+表面に5mmのねじと6mmのスペーサーを取り付けます。  
+裏面に5mmのねじと8mmのねじを取り付けます。  
 ゴム足を取り付けます。  
 
 ## 12 Firmwareの書き込み
 以下を参考にやってください。  
 https://docs.qmk.fm/#/getting_started_build_tools  
-ErgoDashのFirmwareは以下にあります。  
-https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
-
-キーキャップをつけて完成!!!!!  
-<img width="700" alt="finish" src="https://github.com/omkbd/picture/blob/master/finish.jpg">  
+ErgoDash miniのFirmwareは以下にあります。  
+https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash/mini
