@@ -1,6 +1,10 @@
 # ErgoDash mini Build Guide
 
-**基本的にErgoDashと同じなので、画像等は省略**
+**基本的にErgoDashと同じなので、省略して書いています。**  
+必要に応じて以下のページを参照してください。  
+https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
+
+<img width="400" alt="PCB" src="https://github.com/omkbd/picture/blob/master/miniPCB.png">  
 
 ## 0 準備
 組みたいレイアウトによってPCBを切断します。  
@@ -39,6 +43,7 @@ LEDチップを取り付けます。
 ## 7 スタビライザーの取付け[option]
 2Uのキーキャップを使用する場合はスイッチを取り付ける前にスタビライザーを取り付けます。(必ずしもつける必要はありません。)  
 **スイッチを付けるとスタビライザーは取り付けられなくなります。**  
+以下のように組み立てて取り付けます。  
 <img width="400" alt="assembly" src="https://github.com/omkbd/picture/blob/master/Stabilizer.png">  
 スタビライザーの音が気になる場合はグリスを塗布します。（キットには付属していません。）  
 
