@@ -4,7 +4,7 @@
 必要に応じて以下のページを参照してください。  
 https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 
-<img width="400" alt="PCB" src="https://github.com/omkbd/picture/blob/master/miniPCB.png">  
+<img width="600" alt="PCB" src="https://github.com/omkbd/picture/blob/master/miniPCB.png">  
 
 ## 0 準備
 組みたいレイアウトによってPCBを切断します。  
