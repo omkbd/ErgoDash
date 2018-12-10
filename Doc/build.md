@@ -28,17 +28,17 @@ MOSFETを取り付けます。
 **※Pro Microの裏に取り付ける抵抗は表面側に取り付けるか表面実装の抵抗を推奨。(Pro Microの種類によってはPro Microと干渉します。)  **  
 
 ## 3 TRRSジャックの取付け  
-シルクに沿って取り付けます。  
+内側上部の白い四角い枠のシルクに沿って上向きに取り付けます。  
 
 ## 4 リセットスイッチの取付け  
-Pro Microをつけるのと逆側に取り付けます。  
+中央上部に取り付けます。取り付け可能な場所が2カ所ありますが、Pro Microをつけるのと逆側（縦に並んだピンヘッダのパターンに白い四角い枠が付いていない方）に取り付けます。  
 
 ## 5 Undergrow LEDの取付け[Option]
 左右どちらをマスターにするか（USBを指すほう）を決めて、はんだでジャンパします。  
-左側がマスターの場合は以下のようになります。  
+左手側がマスターの場合は以下のようになります。  
 <img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump.jpg">  
 LEDチップを取り付けます。  
-マスター側は以下のように切れ込みがシルクに合うように取り付けます。スレーブ側（逆側）は逆向きに取り付けます。  
+マスター側は以下のように切れ込みがシルクに合うように取り付けます。スレーブ側（逆側）は180度逆向きに取り付けます。  
 テープ等で固定してはんだ付けをするとやりやすいです。  
 <img width="400" alt="RGB_Left" src="https://github.com/omkbd/picture/blob/master/RGB_Left.jpg">  
 <img width="700" alt="RGB_Left_Finish" src="https://github.com/omkbd/picture/blob/master/RGB_Left_Finish.jpg">  
