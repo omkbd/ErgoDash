@@ -27,7 +27,7 @@ MOSFETを取り付けます。
 <img width="700" alt="470" src="https://github.com/omkbd/picture/blob/master/Resistor.jpg">  
 ※一部表面実装の抵抗をつけています。  
 **※Pro Microの裏に取り付ける抵抗は表面側に取り付けるか表面実装の抵抗を推奨。**  
-**(Pro Microの種類によってはPro Microと干渉します。)  **  
+**（Pro Microの種類によってはPro Microと干渉します。）**  
 
 ## 3 TRRSジャックの取付け  
 内側上部の白い四角い枠のシルクに沿って上向きに取り付けます。  
