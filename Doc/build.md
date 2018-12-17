@@ -1,5 +1,6 @@
 # ErgoDash Build Guide
-**読まなくてもいいけどPro Micro取付け時だけは注意!!!!!!**
+**読まなくてもいいけどPro Micro取付け時だけは注意!!!!!!**  
+※以下の図等はRev.1.1のものになります。Rev.1.2以降はパーツの配置が一部変更されています。
 
 ## 概要
 <img width="700" alt="assembly" src="https://github.com/omkbd/picture/blob/master/assembly.png">  
@@ -9,7 +10,7 @@
 <img width="700" alt="PCBcut" src="https://github.com/omkbd/picture/blob/master/PCB_cut.jpg">  
 手で力をかければ割れます。  
 
-**以降の番号の3～6と10は基本的に基板の裏側に取り付けます。**  
+**以降の番号の3～6と10は基本的に基板の裏側に取り付けます。1と2はどちらにつけても構いません。**  
 
 ## 1 ダイオードの取付け
 ダイオードの黒いほうが四角いフットプリントに合うように配置します。  
@@ -19,7 +20,7 @@
 
 ## 2 Backlight LED用パーツの取付け[Option]
 MOSFETを取り付けます。
-シルクで四角で囲ってある箇所に1kΩの抵抗を取り付けます。  
+シルクで四角で囲ってある箇所に1kΩの抵抗を取り付けます。（Rev1.2以降ではBL1kと書いてある方です。）  
 <img width="400" alt="1k" src="https://github.com/omkbd/picture/blob/master/1k_FET.jpg">  
 
 470Ω抵抗を取り付けます。  
@@ -49,9 +50,14 @@ LEDチップを取り付けます。
 スプリングピンヘッダを使う場合は基板側のはんだ付けは不要です。  
 <img width="700" alt="pin" src="https://github.com/omkbd/picture/blob/master/pin.jpg">  
 
-## 7 スタビライザーの取付け[Option]
+## 7 スタビライザーの取付け（Rev.1.2以降）[Option]
 
-2uのキーキャップを使用する場合には必要に応じてアクリルプレートとキースイッチを取り付ける前にスタビライザーを取り付けます。
+2Uのキーキャップを使用する場合はアクリルプレートとスイッチを取り付ける前にスタビライザーを取り付けます。(必ずしもつける必要はありません。)  
+**スイッチを付けるとスタビライザーは取り付けられなくなります。**  
+以下のように組み立てて取り付けます。  
+<img width="400" alt="assembly" src="https://github.com/omkbd/picture/blob/master/Stabilizer.png">  
+スタビライザーの音が気になる場合はグリスを塗布します。（キットには付属していません。）  
+
 
 ## 8 キースイッチの取付け
 スイッチを取り付ける前に部品の取付けやはんだ付けができているか確認します。  

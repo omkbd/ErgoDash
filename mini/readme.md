@@ -44,6 +44,6 @@ The ErgoDash uses QMK for its firmware, and the code for it is here:
 
 # Build Guide
 
-Show
+Look
 [here](https://github.com/omkbd/ErgoDash/blob/master/mini/Doc/build.md)
 .
