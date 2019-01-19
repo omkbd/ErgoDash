@@ -18,6 +18,9 @@
 ダイオードと抵抗の位置を間違えないように注意してください。  
 <img width="700" alt="diode" src="https://github.com/omkbd/picture/blob/master/diode_complete.jpg">  
 
+**Rev1.2では以下のように位置が変更されています。**
+<img width="700" alt="diode" src="https://github.com/omkbd/picture/blob/master/ergodash-rev1.2-PCB.png">  
+
 ## 2 Backlight LED用パーツの取付け[Option]
 MOSFETを取り付けます。
 シルクで四角で囲ってある箇所に1kΩの抵抗を取り付けます。（Rev1.2以降ではBL1kと書いてある方です。）  
