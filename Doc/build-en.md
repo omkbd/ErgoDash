@@ -16,7 +16,7 @@ carefully break by hand
 
 **Note: (Translation note, Pretty sure this is what the note was trying to say seems right)  
 Components in Steps 3-6 and 10 must be inserted on the bottom of the board.   
-Components in steps 1 and 2 can be installed on top or bottom. **
+Components in steps 1 and 2 can be installed on top or bottom.**
 
 ## 1 Install Diodes
 When installing Diodes the black stripe is towards the square pad  
@@ -60,7 +60,7 @@ Left Hand as master is shown soldered in the image below
 (Image Text Note:  First line matching the photo is Left Hand Master, Second line is for right hand master)  
 <img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump.jpg">  
 
-Install LED WS2812B
+Install LED WS2812B  
 **IMPORTANT**  
 -On Master half, LED corner will Match the silkscreen  
 -On Slave half, LED corner needs to be 180 from silkscreen  
