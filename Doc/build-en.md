@@ -22,6 +22,7 @@ Components in steps 1 and 2 can be installed on top or bottom. **
 When installing Diodes the black stripe is towards the square pad
 (Diodes are all 1 square 1 round pad)
 (Resistors are all both round pad)
+
 <img width="400" alt="diode" src="https://github.com/omkbd/picture/blob/master/Build_Diode.jpg">  
 
 Note the positions of Diodes and resistors to avoide mistakes
