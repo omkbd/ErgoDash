@@ -1,7 +1,7 @@
 # ErgoDash Build Guide
 Note image below showing movement of some parts between Rev.1.1 and Rev.1.2
 
-Translated using Microsoft Translate, and adding my own notes after completing assembly. ( Feb 2, 2019)
+Translated using Microsoft Translate, with extra build notes (From: build.md https://github.com/omkbd/ErgoDash/commit/d12e8f7fd414fe89d38b77b3b0e6a0af4b639a47)
 
 ## Overview
 <img width="700" alt="assembly" src="https://github.com/omkbd/picture/blob/master/assembly.png">  
