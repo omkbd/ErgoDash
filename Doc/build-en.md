@@ -14,7 +14,7 @@ Remove Extra thumb key section if desired
 carefully break by hand 
 
 
-** Note: (Translation note, Pretty sure this is what the note was trying to say seems right)
+**Note: (Translation note, Pretty sure this is what the note was trying to say seems right)
 Components in Steps 3-6 and 10 must be inserted on the bottom of the board. 
 Components in steps 1 and 2 can be installed on top or bottom. **
 
@@ -29,7 +29,7 @@ Note the positions of Diodes and resistors to avoid mistakes
 
 <img width="700" alt="diode" src="https://github.com/omkbd/picture/blob/master/diode_complete.jpg">  
 
-** Rev1.2 Some positions have changed **
+**Rev1.2 Some positions have changed**
 
 <img width="700" alt="diode" src="https://github.com/omkbd/picture/blob/master/ergodash-rev1.2-PCB.png">  
 
@@ -44,7 +44,7 @@ Install 470Ω  resistors
 <img width="700" alt="470" src="https://github.com/omkbd/picture/blob/master/Resistor.jpg">  
 
 -Note: Photo has a few surface mount resistors combined with through-hole   
-** (Rev 1.1) For the resistor found under the pro-micro: a surface mount resistor, or installing resistor on opposite side may be preferred to prevent interference (moved in Rev1.2)**
+**(Rev 1.1) For the resistor found under the pro-micro: a surface mount resistor, or installing resistor on opposite side may be preferred to prevent interference (moved in Rev1.2)**
 
 ## 3 TRRS Jack 
 Install TRS Jack as indicated by the silkscreen
@@ -60,15 +60,14 @@ Compare with photo on Step 6
 -You must choose which side will be master now, before installing all the LED WS2812B
 (Translator doesn't have this working correctly, I installed all LEDs according to silkscreen which is WRONG, and the board would not work at all with both halfs connected with solder bridge in place)
 
-(MS Translate) Left and right both to master (it points to the USB) decided, the jump in the solder.左右どちらをマスターにするか（USBを指すほう）を決めて、はんだでジャンパします。  
+(MS Translate) Left and right both to master (it points to the USB) decided, the jump in the solder.
 
 Left Hand as master is shown soldered in the image below  
 (Image Text Note:  First line matching the photo is Left Hand Master, Second line is for right hand master)
 <img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump.jpg">  
 
 Install LED WS2812B
-*IMPORTANT* 
-() 
+**IMPORTANT**
 -On Master half, LED corner will Match the silkscreen
 -On Slave half, LED corner needs to be 180 from silkscreen
 
@@ -84,7 +83,7 @@ Install LED WS2812B
 
 ## 6 Pro Micro header  and reset switch installation
 Attach Headers where you see the rectangular outline on silkscrean  (It is in the correct position on each side of the board)  
-** Do Not attach Pro Micro Yet ** 
+**Do Not attach Pro Micro Yet ** 
 (MS Translate) If you are using the spring pin head is no soldering on the Board side.
 
 <img width="700" alt="pin" src="https://github.com/omkbd/picture/blob/master/pin.jpg">  
@@ -116,8 +115,7 @@ Square Pad  cathode（-) (Short Leg)
 -Can be installed later (Except for the LED under pro-micro)
 
 ## 10 Pro Micro Install
-**  **  
-Before installing Pro Micro check the following:
+**Before installing Pro Micro check the following:**
 -confirm TX0 lines up (USB port sandwiched between both pcb) 
 -Check all solder connections under pro-micro are done 
 -Confirm no contact between Pro micro and components (add insulating tape if desired)
@@ -137,7 +135,7 @@ Install Rubber feet
 
 <img width="700" alt="gom" src="https://github.com/omkbd/picture/blob/master/gom.jpg">  
 
-## 12 Firmwareの書き込み
+## 12 Firmware
 
 Note: PCB Rev 1.1, 1.2 are QMK Rev2 firmware  (Rev1 (in QMK) PCB was not published)
 
@@ -147,5 +145,7 @@ https://docs.qmk.fm/#/getting_started_build_tools
 ErgoDash Firmware 
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
 
-Wearing caps, perfect!
+
+-Finished-
+
 <img width="700" alt="finish" src="https://github.com/omkbd/picture/blob/master/finish.jpg">  
