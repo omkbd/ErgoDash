@@ -25,19 +25,24 @@ When installing Diodes the black stripe is towards the square pad
 
 <img width="400" alt="diode" src="https://github.com/omkbd/picture/blob/master/Build_Diode.jpg">  
 
-Note the positions of Diodes and resistors to avoide mistakes
+Note the positions of Diodes and resistors to avoid mistakes
+
 <img width="700" alt="diode" src="https://github.com/omkbd/picture/blob/master/diode_complete.jpg">  
 
 ** Rev1.2 Some positions have changed **
+
 <img width="700" alt="diode" src="https://github.com/omkbd/picture/blob/master/ergodash-rev1.2-PCB.png">  
 
 ## 2 [Option] Backlight LED
 Install the MOSFET (Install note/suggestion: pre-soldering the single pad worked well)
 Install 1kΩ resistor in silk rectangle as noted 。(Silk screen notation is improved on Rev1.2 [BL1k]) 
+
 <img width="400" alt="1k" src="https://github.com/omkbd/picture/blob/master/1k_FET.jpg">  
 
 Install 470Ω  resistors
+
 <img width="700" alt="470" src="https://github.com/omkbd/picture/blob/master/Resistor.jpg">  
+
 -Note: Photo has a few surface mount resistors combined with through-hole   
 ** (Rev 1.1) For the resistor found under the pro-micro: a surface mount resistor, or installing resistor on opposite side may be preferred to prevent interference (moved in Rev1.2)**
 
@@ -81,6 +86,7 @@ Install LED WS2812B
 Attach Headers where you see the rectangular outline on silkscrean  (It is in the correct position on each side of the board)  
 ** Do Not attach Pro Micro Yet ** 
 (MS Translate) If you are using the spring pin head is no soldering on the Board side.
+
 <img width="700" alt="pin" src="https://github.com/omkbd/picture/blob/master/pin.jpg">  
 
 ## 7 [Option] Install Stabilizer （Rev.1.2 or Later only）
@@ -90,6 +96,7 @@ Attach Headers where you see the rectangular outline on silkscrean  (It is in th
 Install the stabilizers before installing the acrylic plate and switch to use U 2 caps. (Is not always necessary. )
 Switch will no longer install stabilizers.
 To assemble and install.  
+
 <img width="400" alt="assembly" src="https://github.com/omkbd/picture/blob/master/Stabilizer.png">  
 If you care about sound stabilizer grease. (Not included in the Kit. )  
 
@@ -98,6 +105,7 @@ If you care about sound stabilizer grease. (Not included in the Kit. )
 Make sure all components are other components are installed before adding switches  
 Start with 4 corners in the plate to ensure alignment.  
 After the first 4 are soldered in, install remaining switches.
+
 <img width="700" alt="switch" src="https://github.com/omkbd/picture/blob/master/switch.jpg">  
 <img width="700" alt="switch_complete" src="https://github.com/omkbd/picture/blob/master/switch_complete.jpg">  
 
@@ -118,10 +126,15 @@ Before installing Pro Micro check the following:
 
 ## 11 Case Assembly
 Install the 5mm and 6mm spacers from the top。  
+
 <img width="700" alt="spacer" src="https://github.com/omkbd/picture/blob/master/spacer.jpg">  
+
 Install 5mm and 8mm screws according to the diagram。  
+
 <img width="700" alt="case" src="https://github.com/omkbd/picture/blob/master/case.jpg">  
+
 Install Rubber feet  
+
 <img width="700" alt="gom" src="https://github.com/omkbd/picture/blob/master/gom.jpg">  
 
 ## 12 Firmwareの書き込み
