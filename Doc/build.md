@@ -18,7 +18,7 @@
 ダイオードと抵抗の位置を間違えないように注意してください。  
 <img width="700" alt="diode" src="https://github.com/omkbd/picture/blob/master/diode_complete.jpg">  
 
-**Rev1.2では以下のように位置が変更されています。**
+**Rev1.2では以下のように位置が変更されています。**  
 <img width="700" alt="diode" src="https://github.com/omkbd/picture/blob/master/ergodash-rev1.2-PCB.png">  
 
 ## 2 Backlight LED用パーツの取付け[Option]
@@ -31,6 +31,7 @@ MOSFETを取り付けます。
 ※一部表面実装の抵抗をつけています。  
 **※Pro Microの裏に取り付ける抵抗は表面側に取り付けるか表面実装の抵抗を推奨。**  
 **（Pro Microの種類によってはPro Microと干渉します。）**  
+Rev1.2以降この問題は解消されました。
 
 ## 3 TRRSジャックの取付け  
 内側上部の白い四角い枠のシルクに沿って上向きに取り付けます。  
@@ -51,7 +52,7 @@ LEDチップを取り付けます。
 ## 6 Pro Micro用ピンヘッダの取付け
 白い四角い枠がついているほうにピンヘッダを取り付けます。  
 **この時点でPro Microを取り付けてはいけません。**  
-スプリングピンヘッダを使う場合は基板側のはんだ付けは不要です。  
+※スプリングピンヘッダを使う場合は基板側のはんだ付けは不要です。  （この工程でははんだ付けしません。）  
 <img width="700" alt="pin" src="https://github.com/omkbd/picture/blob/master/pin.jpg">  
 
 ## 7 スタビライザーの取付け（Rev.1.2以降）[Option]
@@ -64,10 +65,13 @@ LEDチップを取り付けます。
 
 
 ## 8 キースイッチの取付け
-スイッチを取り付ける前に部品の取付けやはんだ付けができているか確認します。  
+**スイッチを取り付ける前に部品の取付けやはんだ付けができているか確認します。**  
+（TRRSジャックとリセットスイッチは特に注意が必要です。）
 アクリルプレートにキースイッチをはめて取り付けします。
 <img width="700" alt="switch" src="https://github.com/omkbd/picture/blob/master/switch.jpg">  
 <img width="700" alt="switch_complete" src="https://github.com/omkbd/picture/blob/master/switch_complete.jpg">  
+
+※スプリングピンヘッダを使用する場合は10と12の工程を先に行い、動作確認をすると失敗する可能性が減ります。
 
 ## 9 Backlight LEDの取付け[Option]
 スイッチの上からLEDを取り付けます。  
@@ -76,10 +80,13 @@ LEDチップを取り付けます。
 ## 10 Pro Microの取付け
 **作業前にPro MicroをUSBでPCと繋げて動作を確認しておきましょう。**  
 取り付ける前にはんだ忘れがないか確認します。  
-Pro Microと基板のTX0が合うか確認して取り付けます。  
+**Pro Microと基板のTX0が合うか確認して取り付けます。**  
 両手とも裏側に取り付けられるようになります。  
-スプリングヘッダを使う場合はPro Micro側ははんだ付けします。
-取り付けたときにPro Microの浮きがないか確認し、浮きがあればPro Micro下のスイッチの足を少しカットします。
+取り付けたときにPro Microの浮きがないか確認し、浮きがあればPro Micro下のスイッチの足を少しカットします。  
+
+※スプリングヘッダを使う場合はPro Micro側のみをはんだ付けします。  
+スプリングピンヘッダの使い方は下記ページをご参照ください。  
+https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro  
 
 ## 11 ケースの組み立て
 5mmのねじと6mmのスペーサーを取り付けます。  
@@ -90,10 +97,14 @@ Pro Microと基板のTX0が合うか確認して取り付けます。
 <img width="700" alt="gom" src="https://github.com/omkbd/picture/blob/master/gom.jpg">  
 
 ## 12 Firmwareの書き込み
-以下を参考にやってください。  
+以下を参考に書き込んでください。  
 https://docs.qmk.fm/#/getting_started_build_tools  
 ErgoDashのFirmwareは以下にあります。  
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
+
+初めての方は以下のツールを使うことをお勧めします。  
+https://config.qmk.fm/#/ergodash/rev2/LAYOUT  
+https://github.com/qmk/qmk_toolbox
 
 キーキャップをつけて完成!!!!!  
 <img width="700" alt="finish" src="https://github.com/omkbd/picture/blob/master/finish.jpg">  

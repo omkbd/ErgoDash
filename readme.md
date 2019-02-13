@@ -14,27 +14,24 @@
  × 2  
 [ErgoDash Case](https://github.com/omkbd/ErgoDash/tree/master/Case)
  × 2  
-Switch (MX-compatible and Alps switches are supported) × 70  
-Keycap × 70  
-1N4148 diode × 70  
+Switch (MX-compatible and Alps switches are supported) × 66-70  
+Keycap × 66-70  
+1N4148 diode × 66-70  
 Arduino Pro Micro × 2  
 TRRS jack MJ-4PP-9 × 2  
 MJTP1117 switch × 2  
 TRRS cable × 1  
 Micro USB cable × 1  
-M2 screw × 28  
+M2×5mm screw × 22  
+M2×8mm screw × 6
 M2 spacer × 14  
 
 ---Option---  
 LED WS2812B × 24  
-LED 3mm × 70  
-470Ω resistor × 70  
+LED 3mm × 66-70  
+470Ω resistor × 66-70  
 1kΩ resistor × 2  
 NchMOSFET IRLML6344TRPbF × 2  
-
-You can get it
-[here](https://dashkbd.booth.pm/items/1011978)
-.
 
 # Firmware
 
@@ -45,6 +42,5 @@ The ErgoDash uses QMK for its firmware, and the code for it is here:
 
 # Build Guide
 
-Look
-[here](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)
-.
+[Japanese Build Guide](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)  
+[English Build Guide](https://github.com/omkbd/ErgoDash/blob/master/Doc/build-en.md)
