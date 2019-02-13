@@ -44,7 +44,8 @@ Rev1.2以降この問題は解消されました。
 左手側がマスターの場合は以下のようになります。  
 <img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump.jpg">  
 LEDチップを取り付けます。  
-マスター側は以下のように切れ込みがシルクに合うように取り付けます。スレーブ側（逆側）は180度逆向きに取り付けます。  
+マスター側は以下のように切れ込みがシルクに合うように取り付けます。  
+**スレーブ側（逆側）は180度逆向きに取り付けます。**  
 テープ等で固定してはんだ付けをするとやりやすいです。  
 <img width="400" alt="RGB_Left" src="https://github.com/omkbd/picture/blob/master/RGB_Left.jpg">  
 <img width="700" alt="RGB_Left_Finish" src="https://github.com/omkbd/picture/blob/master/RGB_Left_Finish.jpg">  
@@ -56,7 +57,6 @@ LEDチップを取り付けます。
 <img width="700" alt="pin" src="https://github.com/omkbd/picture/blob/master/pin.jpg">  
 
 ## 7 スタビライザーの取付け（Rev.1.2以降）[Option]
-
 2Uのキーキャップを使用する場合はアクリルプレートとスイッチを取り付ける前にスタビライザーを取り付けます。(必ずしもつける必要はありません。)  
 **スイッチを付けるとスタビライザーは取り付けられなくなります。**  
 以下のように組み立てて取り付けます。  
@@ -66,8 +66,9 @@ LEDチップを取り付けます。
 
 ## 8 キースイッチの取付け
 **スイッチを取り付ける前に部品の取付けやはんだ付けができているか確認します。**  
-（TRRSジャックとリセットスイッチは特に注意が必要です。）
-アクリルプレートにキースイッチをはめて取り付けします。
+（TRRSジャックとリセットスイッチは特に注意が必要です。）  
+アクリルプレートにキースイッチをはめて取り付けします。  
+**スタビライザーをつけている場合はスイッチと基板が浮きやすいので注意しましょう。**  
 <img width="700" alt="switch" src="https://github.com/omkbd/picture/blob/master/switch.jpg">  
 <img width="700" alt="switch_complete" src="https://github.com/omkbd/picture/blob/master/switch_complete.jpg">  
 
