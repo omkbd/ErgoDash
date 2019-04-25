@@ -43,6 +43,13 @@ Rev1.2以降この問題は解消されました。
 左右どちらをマスターにするか（USBを指すほう）を決めて、はんだでジャンパします。  
 左手側がマスターの場合は以下のようになります。  
 <img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump.jpg">  
+
+
+右手側をマスターにした場合はqmkのconfig.hファイルで
+`MASTER_RIGHT`を指定してファームウェアをビルドする必要があります。
+https://docs.qmk.fm/#/config_options?id=defines-for-handedness
+
+
 LEDチップを取り付けます。  
 マスター側は以下のように切れ込みがシルクに合うように取り付けます。  
 **スレーブ側（逆側）は180度逆向きに取り付けます。**  
