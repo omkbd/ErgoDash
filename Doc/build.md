@@ -1,5 +1,5 @@
 # ErgoDash Build Guide
-**読まなくてもいいけどPro Micro取付け時だけは注意!!!!!!**  
+**一度すべて読んでから組み立てることをお勧めします。**  
 ※以下の図等はRev.1.1のものになります。Rev.1.2以降はパーツの配置が一部変更されています。
 
 ## 概要
@@ -44,18 +44,19 @@ Rev1.2以降この問題は解消されました。
 左手側がマスターの場合は以下のようになります。  
 <img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump.jpg">  
 
-
-右手側をマスターにした場合はqmkのconfig.hファイルで
-`MASTER_RIGHT`を指定してファームウェアをビルドする必要があります。
-https://docs.qmk.fm/#/config_options?id=defines-for-handedness
-
-
 LEDチップを取り付けます。  
 マスター側は以下のように切れ込みがシルクに合うように取り付けます。  
 **スレーブ側（逆側）は180度逆向きに取り付けます。**  
 テープ等で固定してはんだ付けをするとやりやすいです。  
 <img width="400" alt="RGB_Left" src="https://github.com/omkbd/picture/blob/master/RGB_Left.jpg">  
 <img width="700" alt="RGB_Left_Finish" src="https://github.com/omkbd/picture/blob/master/RGB_Left_Finish.jpg">  
+
+**最新のファームウェアでは以下のようにします。（2019/5/4時点では未実装）**  
+マスターを決める必要はありません。  
+以下のようにジャンパします。  
+<img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump2.jpg">  
+マスタースレーブに関わらず、シルクに従ってLEDチップを取り付けます。  
+
 
 ## 6 Pro Micro用ピンヘッダの取付け
 白い四角い枠がついているほうにピンヘッダを取り付けます。  
@@ -105,12 +106,24 @@ https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-mic
 <img width="700" alt="gom" src="https://github.com/omkbd/picture/blob/master/gom.jpg">  
 
 ## 12 Firmwareの書き込み
-以下を参考に書き込んでください。  
+以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。  
 https://docs.qmk.fm/#/getting_started_build_tools  
 ErgoDashのFirmwareは以下にあります。  
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
 
-初めての方は以下のツールを使うことをお勧めします。  
+右手側をマスターにした場合はqmkのconfig.hファイルで
+`MASTER_RIGHT`を指定してファームウェアをビルドする必要があります。
+https://docs.qmk.fm/#/config_options?id=defines-for-handedness
+
+BacklightとUnderglowを点けるにはキーマップ内のrules.mkに以下を追記します。  
+`BACKLIGHT_ENABLE = yes`  
+`RGBLIGHT_ENABLE = yes  `
+
+**5の工程でマスターを決めて取り付けた場合はrev1/config.h内の以下の行をコメントアウトしてください。（2019/5/4時点では未実装）**  
+`#define RGBLIGHT_SPLIT`  
+`#define RGBLED_SPLIT { 12, 12 } `
+
+初めての方は以下のツールを使うことをお勧めします。（これらを使用する場合LED系は点灯しません。）  
 https://config.qmk.fm/#/ergodash/rev2/LAYOUT  
 https://github.com/qmk/qmk_toolbox
 

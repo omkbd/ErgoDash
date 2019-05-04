@@ -36,6 +36,13 @@ LEDチップを取り付けます。
 **スレーブ側（逆側）は逆向きに取り付けます。**  
 テープ等で固定してはんだ付けをするとやりやすいです。  
 
+**最新のファームウェアでは以下のようにします。（2019/5/4時点では未実装）**  
+マスターを決める必要はありません。  
+以下のようにジャンパします。  
+<img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump2.jpg">  
+マスタースレーブに関わらず、シルクに従ってLEDチップを取り付けます。  
+
+
 ## 6 Pro Micro用ピンヘッダの取付け
 白い四角い枠がついているほうにピンヘッダを取り付けます。  
 **この時点でPro Microを取り付けてはいけません。**  
@@ -78,11 +85,25 @@ https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-mic
 ゴム足を取り付けます。  
 
 ## 12 Firmwareの書き込み
-以下を参考にやってください。  
+以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。  
 https://docs.qmk.fm/#/getting_started_build_tools  
-ErgoDash miniのFirmwareは以下にあります。  
-https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash/mini
+ErgoDashのFirmwareは以下にあります。  
+https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
 
-初めての方は以下のツールを使うことをお勧めします。  
+右手側をマスターにした場合はqmkのconfig.hファイルで
+`MASTER_RIGHT`を指定してファームウェアをビルドする必要があります。
+https://docs.qmk.fm/#/config_options?id=defines-for-handedness
+
+BacklightとUnderglowを点けるにはキーマップ内のrules.mkに以下を追記します。  
+`BACKLIGHT_ENABLE = yes`  
+`RGBLIGHT_ENABLE = yes  `
+
+**5の工程でマスターを決めて取り付けた場合はrev1/config.h内の以下の行をコメントアウトしてください。（2019/5/4時点では未実装）**  
+`#define RGBLIGHT_SPLIT`  
+`#define RGBLED_SPLIT { 12, 12 } `
+
+初めての方は以下のツールを使うことをお勧めします。（これらを使用する場合LED系は点灯しません。）  
 https://config.qmk.fm/#/ergodash/rev2/LAYOUT  
 https://github.com/qmk/qmk_toolbox
+
+キーキャップをつけて完成!!!!!  
