@@ -32,7 +32,7 @@ Pro Microをつけるのと逆側に取り付けます。
 **最新のファームウェアでは以下のようにします。**  
 マスターを決める必要はありません。  
 以下のように裏側からジャンパします。  
-<img width="700" alt="jump2" src="https://github.com/omkbd/picture/blob/master/Jump2.jpg">  
+<img width="700" alt="jump2" src="https://github.com/omkbd/picture/blob/master/Jump2.png">  
 左右ともに切れ込みがシルクに合うようにLEDチップを取り付けます。  
 
 **2019/5/5以前のファームウェアでは以下のようにします。**  
