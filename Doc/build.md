@@ -40,22 +40,24 @@ Rev1.2以降この問題は解消されました。
 中央上部に取り付けます。取り付け可能な場所が2カ所ありますが、Pro Microをつけるのと逆側（縦に並んだピンヘッダのパターンに白い四角い枠が付いていない方）に取り付けます。  
 
 ## 5 Undergrow LEDの取付け[Option]
-左右どちらをマスターにするか（USBを指すほう）を決めて、はんだでジャンパします。  
-左手側がマスターの場合は以下のようになります。  
+**最新のファームウェアでは以下のようにします。**  
+マスターを決める必要はありません。  
+以下のように裏側からジャンパします。  
+<img width="700" alt="jump2" src="https://github.com/omkbd/picture/blob/master/Jump2.jpg">  
+左右ともに切れ込みがシルクに合うようにLEDチップを取り付けます。  
+
+**2019/5/5以前のファームウェアでは以下のようにします。**  
+~~左右どちらをマスターにするか（USBを指すほう）を決めて、はんだでジャンパします。~~  
+~~左手側がマスターの場合は以下のようになります。~~  
 <img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump.jpg">  
 
-LEDチップを取り付けます。  
-マスター側は以下のように切れ込みがシルクに合うように取り付けます。  
-**スレーブ側（逆側）は180度逆向きに取り付けます。**  
+~~LEDチップを取り付けます。~~  
+~~マスター側は以下のように切れ込みがシルクに合うように取り付けます。~~  
+~~**スレーブ側（逆側）は180度逆向きに取り付けます。**~~  
+
 テープ等で固定してはんだ付けをするとやりやすいです。  
 <img width="400" alt="RGB_Left" src="https://github.com/omkbd/picture/blob/master/RGB_Left.jpg">  
 <img width="700" alt="RGB_Left_Finish" src="https://github.com/omkbd/picture/blob/master/RGB_Left_Finish.jpg">  
-
-**最新のファームウェアでは以下のようにします。（2019/5/4時点では未実装）**  
-マスターを決める必要はありません。  
-以下のようにジャンパします。  
-<img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump2.jpg">  
-マスタースレーブに関わらず、シルクに従ってLEDチップを取り付けます。  
 
 
 ## 6 Pro Micro用ピンヘッダの取付け
@@ -111,15 +113,15 @@ https://docs.qmk.fm/#/getting_started_build_tools
 ErgoDashのFirmwareは以下にあります。  
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
 
-右手側をマスターにした場合はqmkのconfig.hファイルで
+右手側をマスターにした場合はqmkのkeymap内のconfig.hファイルで
 `MASTER_RIGHT`を指定してファームウェアをビルドする必要があります。
 https://docs.qmk.fm/#/config_options?id=defines-for-handedness
 
-BacklightとUnderglowを点けるにはキーマップ内のrules.mkに以下を追記します。  
+BacklightとUnderglowを点けるにはkeymap内のrules.mkに以下を追記します。AUDIOについてはサポート外です。  
 `BACKLIGHT_ENABLE = yes`  
 `RGBLIGHT_ENABLE = yes  `
 
-**5の工程でマスターを決めて取り付けた場合はrev1/config.h内の以下の行をコメントアウトしてください。（2019/5/4時点では未実装）**  
+**5の工程で2019/5/5以前のファームウェアを使用した場合はrev1/config.h内の以下の行をコメントアウトしてください。**  
 `#define RGBLIGHT_SPLIT`  
 `#define RGBLED_SPLIT { 12, 12 } `
 
