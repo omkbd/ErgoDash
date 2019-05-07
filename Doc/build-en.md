@@ -50,15 +50,22 @@ Reset switch is installed where the rectangular outline is not seen
 Compare with photo on Step 6
 
 ## 5 Underglow LED [optional]
-Choose which of the pair (left or right) will be master (where the USB cable will be attached), and solder the jumpers as below.
-The board in the photo below has the jumpers soldered for left hand master. The left hand board is on the right, and the right hand board is on the left.
-In the two diagrams, the upper image is for left hand master (labelled 左マスター), and the lower image is for right hand master (右マスター).
+**The latest firmware is as follows.**  
+There is no need to decide on a master.  
+Jump from the back as follows.  
+<img width="700" alt="jump2" src="https://github.com/omkbd/picture/blob/master/Jump2-en.png">  
+Attach the LED chip so that the cut on both sides matches the silk.
+
+**The firmware before 2019/5/5 is implemented as follows.**  
+~~Choose which of the pair (left or right) will be master (where the USB cable will be attached), and solder the jumpers as below.~~  
+~~The board in the photo below has the jumpers soldered for left hand master. The left hand board is on the right, and the right hand board is on the left.~~  
+~~In the two diagrams, the upper image is for left hand master (labelled 左マスター), and the lower image is for right hand master (右マスター).~~  
 <img width="700" alt="jump" src="https://github.com/omkbd/picture/blob/master/Jump.jpg">
 
-Install LED WS2812B
-**IMPORTANT**
--On Master half, LED corner will Match the silkscreen
--On Slave half, LED corner needs to be 180 from silkscreen
+~~Install LED WS2812B~~  
+~~**IMPORTANT**~~  
+~~-On Master half, LED corner will Match the silkscreen~~  
+~~-On Slave half, LED corner needs to be 180 from silkscreen~~  
 
 -Installation notes:
   -use tape to hold in place, solder one side, remove tape, then solder other
@@ -126,13 +133,20 @@ Install Rubber feet
 
 ## 12 Firmware
 
-Note: PCB Rev 1.1, 1.2 are QMK Rev2 firmware  (Rev1 (in QMK) PCB was not published)
-
 QMK Build Guide
 https://docs.qmk.fm/#/getting_started_build_tools
 
 ErgoDash Firmware
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
+
+If the right hand side is the master, you need to build the firmware by specifying `MASTER_RIGHT` in the config.h file in the key map of qmk.  
+To turn on Backlight and Underglow, add the following to rules.mk in the keymap.  
+`BACKLIGHT_ENABLE = yes`  
+`RGBLIGHT_ENABLE = yes  `
+
+**If you used firmware 5/5/2019 or earlier in step 5, comment out the following line in rev1 / config.h.**  
+`#define RGBLIGHT_SPLIT`  
+`#define RGBLED_SPLIT { 12, 12 } `
 
 Attach the keycaps, and you're done!!!!!
 
