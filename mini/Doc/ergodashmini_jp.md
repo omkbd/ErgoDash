@@ -61,5 +61,5 @@ QMK Firmwareで動作します。
 
 ## 組み立て方
 
-[ここ](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)
+[ここ](https://github.com/omkbd/ErgoDash/blob/master/mini/Doc/build.md)
 を見てください。
