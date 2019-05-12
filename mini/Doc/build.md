@@ -106,7 +106,7 @@ BacklightとUnderglowを点けるにはkeymap内のrules.mkに以下を追記し
 
 **5の工程で2019/5/5以前のファームウェアを使用した場合はrev1/config.h内の以下の行をコメントアウトしてください。**  
 `#define RGBLIGHT_SPLIT`  
-`#define RGBLED_SPLIT { 12, 12 } `
+`#define RGBLED_SPLIT { 10, 10 } `
 
 初めての方は以下のツールを使うことをお勧めします。（これらを使用する場合LED系は点灯しません。）  
 https://config.qmk.fm/#/ergodash/rev2/LAYOUT  
