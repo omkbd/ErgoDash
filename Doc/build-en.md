@@ -100,7 +100,7 @@ Make sure all other components are installed before adding switches.
 Place the plate with keyholes over top the PCB and snap in and solder switches.
 Start with 4 corners in the plate to ensure alignment.
 After the first 4 are soldered in, install remaining switches.
-Just above the "ergoDash Rev 1.2" sign, there is thow possible location for the switch.
+Just above the "ergoDash Rev 1.2" sign, there is two possible locations for the switch.
 The recommanded location is at the right side for the right part of the keybord (to use it as arrow keys).
 And at the left side for the left part of the keyboard (as a modifier)
 See this picture (https://raw.githubusercontent.com/omkbd/picture/master/Ergodash.jpg)
