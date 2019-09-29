@@ -41,9 +41,10 @@ Install 470Ω resistors
 **(Rev 1.1) For the resistor found under the pro-micro: a surface mount resistor, or installing resistor on opposite side may be preferred to prevent interference (moved in rev 1.2)**
 
 ## 3 TRRS Jack
-Install the TRRS Jack as indicated by the silkscreen.
+On the underside of the board, install the TRRS Jack as indicated by the silkscreen.
 
 ## 4 Install reset switch
+The reset switch needs to go the underside of the board.
 At the top of the board there are 2 locations for the pro-micro.
 Pro Micro will be installed where the rectangular outline is printed
 Reset switch is installed where the rectangular outline is not seen
@@ -78,7 +79,7 @@ Attach the LED chip so that the cut on both sides matches the silk.
 <img width="700" alt="RGB_Left_Finish" src="https://github.com/omkbd/picture/blob/master/RGB_Left_Finish.jpg">
 
 ## 6 Pro Micro header  and reset switch installation
-Attach Headers where you see the rectangular outline on silkscrean  (It is in the correct position on each side of the board)
+On the underside, attach Headers where you see the rectangular outline on silkscrean  (It is in the correct position on each side of the board)
 **Do Not attach Pro Micro Yet**
 When using spring headers, soldering the header to the board is unnecessary.
 
@@ -99,6 +100,10 @@ Make sure all other components are installed before adding switches.
 Place the plate with keyholes over top the PCB and snap in and solder switches.
 Start with 4 corners in the plate to ensure alignment.
 After the first 4 are soldered in, install remaining switches.
+Just above the "ergoDash Rev 1.2" sign, there is two possible locations for the switch.
+The recommanded location is at the right side for the right part of the keybord (to use it as arrow keys).
+And at the left side for the left part of the keyboard (as a modifier)
+See this picture (https://raw.githubusercontent.com/omkbd/picture/master/Ergodash.jpg)
 
 <img width="700" alt="switch" src="https://github.com/omkbd/picture/blob/master/switch.jpg">
 <img width="700" alt="switch_complete" src="https://github.com/omkbd/picture/blob/master/switch_complete.jpg">
