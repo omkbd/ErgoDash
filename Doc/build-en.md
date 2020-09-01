@@ -148,6 +148,7 @@ If the right hand side is the master, you need to build the firmware by specifyi
 To turn on Backlight and Underglow, add the following to rules.mk in the keymap.  
 `BACKLIGHT_ENABLE = yes`  
 `RGBLIGHT_ENABLE = yes  `
+As the default setting, Underglow LEDs turn on, but Backlight LEDs don't turn on. If you want to confirm whether Backlight LEDs work normally or not, press the `BL_TOGG` key (this key is assigned to `Lower + Raise + S` on the default key map).
 
 **If you used firmware 5/5/2019 or earlier in step 5, comment out the following line in rev1 / config.h.**  
 `#define RGBLIGHT_SPLIT`  

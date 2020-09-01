@@ -120,6 +120,7 @@ https://docs.qmk.fm/#/config_options?id=defines-for-handedness
 BacklightとUnderglowを点けるにはkeymap内のrules.mkに以下を追記します。AUDIOについてはサポート外です。  
 `BACKLIGHT_ENABLE = yes`  
 `RGBLIGHT_ENABLE = yes  `
+初期設定値として、Underglow LEDは点灯しますが、Backlight LEDは消灯状態となります。Backlight LEDの点灯を確認する場合は、 `BL_TOGG` キー(defaultキーマップでは `Lower + Raise + S`)を押してください。
 
 **5の工程で2019/5/5以前のファームウェアを使用した場合はrev1/config.h内の以下の行をコメントアウトしてください。**  
 `#define RGBLIGHT_SPLIT`  
