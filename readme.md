@@ -33,7 +33,8 @@ TRRS cable × 1
 Micro USB cable × 1  
 M2×5mm screw × 22  
 M2×8mm screw × 6  
-M2×6mm spacer × 14
+M2×6mm spacer × 14  
+Rubber feet × 8
 
 ---Option---  
 LED WS2812B × 24  
