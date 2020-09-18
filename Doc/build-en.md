@@ -124,7 +124,7 @@ Square Pad  cathode（-) (Short Leg)
 -Trim headers after testing.
 
 ## 11 Case Assembly
-Install the 5mm and 6mm spacers from the top。
+Install the 5mm screws and 6mm spacers from the top。
 
 <img width="700" alt="spacer" src="https://github.com/omkbd/picture/blob/master/spacer.jpg">
 
