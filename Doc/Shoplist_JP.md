@@ -52,7 +52,11 @@ https://yushakobo.jp/shop/a01mc-00/
 
 ---Backlight---  
 LED 3mm × 66～70  
+例(実機未確認)
+https://akizukidenshi.com/catalog/c/ctbn3mm/
 
+https://www.aitendo.com/product/10043
+(BOXスイッチの場合)
 
 470Ω resistor × 66～70  
 http://akizukidenshi.com/catalog/g/gR-16471/  
