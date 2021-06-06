@@ -132,3 +132,10 @@ https://github.com/qmk/qmk_toolbox
 
 キーキャップをつけて完成!!!!!  
 <img width="700" alt="finish" src="https://github.com/omkbd/picture/blob/master/finish.jpg">  
+
+## EXT Firmwareの書き込み
+VIAというツールを使えばキーマップをGUI上で変更できます。  
+https://github.com/the-via/releases/releases/tag/v1.3.1  
+ErgoDashのVIA用ファームウェアは以下にあります。  
+https://github.com/omkbd/ErgoDash/tree/master/Firmware  
+ergodash_rev1_via.hexをQMKtoolbox等で書き込んでから使用してください。  
