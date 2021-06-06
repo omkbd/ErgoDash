@@ -114,12 +114,12 @@ ErgoDashのFirmwareは以下にあります。
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
 
 右手側をマスターにした場合はqmkのkeymap内のconfig.hファイルで
-`MASTER_RIGHT`を指定してファームウェアをビルドする必要があります。
+`MASTER_RIGHT`を指定してファームウェアをビルドする必要があります。  
 https://docs.qmk.fm/#/config_options?id=defines-for-handedness
 
 BacklightとUnderglowを点けるにはkeymap内のrules.mkに以下を追記します。AUDIOについてはサポート外です。  
 `BACKLIGHT_ENABLE = yes`  
-`RGBLIGHT_ENABLE = yes  `
+`RGBLIGHT_ENABLE = yes  `  
 初期設定値として、Underglow LEDは点灯しますが、Backlight LEDは消灯状態となります。Backlight LEDの点灯を確認する場合は、 `BL_TOGG` キー(defaultキーマップでは `Lower + Raise + S`)を押してください。
 
 **5の工程で2019/5/5以前のファームウェアを使用した場合はrev1/config.h内の以下の行をコメントアウトしてください。**  
@@ -133,9 +133,12 @@ https://github.com/qmk/qmk_toolbox
 キーキャップをつけて完成!!!!!  
 <img width="700" alt="finish" src="https://github.com/omkbd/picture/blob/master/finish.jpg">  
 
-## EXT Firmwareの書き込み
+## EXT Firmwareの書き換え
 VIAというツールを使えばキーマップをGUI上で変更できます。  
 https://github.com/the-via/releases/releases/tag/v1.3.1  
+
 ErgoDashのVIA用ファームウェアは以下にあります。  
 https://github.com/omkbd/ErgoDash/tree/master/Firmware  
 ergodash_rev1_via.hexをQMKtoolbox等で書き込んでから使用してください。  
+
+書き込みができたらVIAを起動してFile＞Import KeymapからErgoDash.jsonを読み込んでください。
