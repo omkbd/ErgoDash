@@ -110,8 +110,8 @@ https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-mic
 ## 12 Firmwareの書き込み
 以下を参考に書き込んでください。または、QMKで検索すると書き込み方がすぐに出てくるはずです。  
 https://docs.qmk.fm/#/getting_started_build_tools  
-ErgoDashのFirmwareは以下にあります。  
-https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
+ErgoDashのFirmwareは以下にあります。
+https://github.com/qmk/qmk_firmware/tree/master/keyboards/omkbd/ergodash
 
 右手側をマスターにした場合はqmkのkeymap内のconfig.hファイルで
 `MASTER_RIGHT`を指定してファームウェアをビルドする必要があります。  
