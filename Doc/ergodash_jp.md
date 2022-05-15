@@ -56,7 +56,7 @@ PCBとケース以外は基本的に国内サイトで入手可能です。
 ## ファームウェア
 
 QMK Firmwareで動作します。
-[QMK - ErgoDash directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash)
+[QMK - ErgoDash directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/omkbd/ergodash)
 .  
 
 ## 組み立て方
