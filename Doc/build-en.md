@@ -142,7 +142,7 @@ QMK Build Guide
 https://docs.qmk.fm/#/getting_started_build_tools
 
 ErgoDash Firmware
-https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash
+https://github.com/qmk/qmk_firmware/tree/master/keyboards/omkbd/ergodash
 
 If the right hand side is the master, you need to build the firmware by specifying `MASTER_RIGHT` in the config.h file in the key map of qmk.  
 To turn on Backlight and Underglow, add the following to rules.mk in the keymap.  
