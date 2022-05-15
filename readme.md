@@ -46,8 +46,8 @@ NchMOSFET IRLML6344TRPbF × 2
 # Firmware
 
 The ErgoDash uses QMK for its firmware, and the code for it is here:
-[QMK - ErgoDash directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodash)
-.  
+[QMK - ErgoDash directory](https://github.com/qmk/qmk_firmware/tree/master/keyboards/omkbd/ergodash)
+.
 
 
 # Build Guide
